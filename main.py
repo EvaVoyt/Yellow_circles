@@ -22,7 +22,7 @@ class MyWidget(QMainWindow, Ui_MainWindow):
             qp.end()
 
     def draw_circle(self, qp):
-        qp.setBrush(QColor('yellow))
+        qp.setBrush(QColor('yellow'))
         size = choice(range(25, 300))
         qp.drawEllipse(self.width() // 2 - size // 2, self.height() // 2 - size // 2, size, size)
 
